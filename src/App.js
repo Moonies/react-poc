@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col, input, Layout, notification } from 'antd';
 import 'antd/dist/antd.css';
 import './App.css';
-const { Header, Footer, Sider, Content } = Layout;
+const { Header, Footer, Content } = Layout;
 
 function App() {
   const [sortingNumber, setSortingNumber,] = React.useState([])
